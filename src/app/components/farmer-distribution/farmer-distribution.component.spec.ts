@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { FarmerDistributionComponent } from './farmer-distribution.component';
+import { HighchartsChartComponent, HighchartsChartModule } from 'highcharts-angular';
 
 describe('FarmerDistributionComponent', () => {
   let component: FarmerDistributionComponent;
@@ -8,7 +9,7 @@ describe('FarmerDistributionComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ FarmerDistributionComponent ]
+      declarations: [ FarmerDistributionComponent, HighchartsChartComponent ]
     })
     .compileComponents();
   }));

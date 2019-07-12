@@ -2,6 +2,7 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { AdminDashboardComponent } from './admin-dashboard.component';
 import { FarmerDistributionComponent } from 'src/app/components/farmer-distribution/farmer-distribution.component';
+import { HighchartsChartComponent } from 'highcharts-angular';
 
 describe('AdminDashboardComponent', () => {
   let component: AdminDashboardComponent;
@@ -9,7 +10,7 @@ describe('AdminDashboardComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AdminDashboardComponent, FarmerDistributionComponent ]
+      declarations: [ AdminDashboardComponent, FarmerDistributionComponent, HighchartsChartComponent ]
     })
     .compileComponents();
   }));
