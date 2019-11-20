@@ -21,7 +21,7 @@
     "@angular/router": "~7.2.0",
     "core-js": "^2.5.4",
     "@highcharts/map-collection": "^1.1.2",
-    "angular": "^1.7.8",
+    "angular": "^1.7.9",
     "highcharts": "^7.1.2",
     "highcharts-angular": "^2.4.0",
     "intl": "^1.2.5",
